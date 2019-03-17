@@ -34,3 +34,7 @@
 	Transfer between accounts takes 2 seconds to compute without exception.
 	All transactions are done in the same timezone
 	CSV will always have the right format and therefore there is no need to check
+## How to run it
+	Open a terminal in the src folder and run "javac *.java"
+	Then in the same terminal run "java MinOverDraft nameOfFile.csv". Where nameOfFile is the name of your input file.
+	If you want to assign a name for the output manually then add it as an arguement, "java MinOverDraft nameOfFile.csv nameOfFileOUT.csv"
