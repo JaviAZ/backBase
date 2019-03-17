@@ -26,7 +26,7 @@
 	AccountType?: (String) An enumerated set of account types
 	InitiatorType?: (String) "ACCOUNT-HOLDER" if the customer initiated the transaction,or ?"SYSTEM?"" if we programmatically initiate a transaction.
 	DateTime?: (String) ISO-8601 formatted date-time of the transaction
-	TransactionValue?: (Signed floating point number) GBP (£) value of the transaction.Positive values are deposits and will increment account balance.  Negative valuesare withdrawals and will decrement account balance
+	TransactionValue?: (Signed floating point number) GBP (Â£) value of the transaction.Positive values are deposits and will increment account balance.  Negative valuesare withdrawals and will decrement account balance
 ##My assumptions
 	Customers only have one savings account and one current account
 	Program is suppossed to act between input transactions. Transactions in csv are not a history, but a "real-time" real-life example.
