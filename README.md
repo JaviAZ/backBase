@@ -38,3 +38,5 @@
 	Open a terminal in the src folder and run "javac *.java"
 	Then in the same terminal run "java MinOverDraft nameOfFile.csv". Where nameOfFile is the name of your input file.
 	If you want to assign a name for the output manually then add it as an arguement, "java MinOverDraft nameOfFile.csv nameOfFileOUT.csv"
+	Input files must be kept in the "InputFiles" folder
+	Output files will appear in the "OutputFiles" folder
